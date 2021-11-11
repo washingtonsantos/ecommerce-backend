@@ -1,0 +1,12 @@
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\bin\Debug\net5.0\ecommerce.Encomenda.Domain.deps.json
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\bin\Debug\net5.0\ecommerce.Encomenda.Domain.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\bin\Debug\net5.0\ref\ecommerce.Encomenda.Domain.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\bin\Debug\net5.0\ecommerce.Encomenda.Domain.pdb
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\obj\Debug\net5.0\ecommerce.Encomenda.Domain.csproj.AssemblyReference.cache
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\obj\Debug\net5.0\ecommerce.Encomenda.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\obj\Debug\net5.0\ecommerce.Encomenda.Domain.AssemblyInfoInputs.cache
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\obj\Debug\net5.0\ecommerce.Encomenda.Domain.AssemblyInfo.cs
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\obj\Debug\net5.0\ecommerce.Encomenda.Domain.csproj.CoreCompileInputs.cache
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\obj\Debug\net5.0\ecommerce.Encomenda.Domain.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\obj\Debug\net5.0\ref\ecommerce.Encomenda.Domain.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.Encomenda.Domain\obj\Debug\net5.0\ecommerce.Encomenda.Domain.pdb

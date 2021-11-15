@@ -9,7 +9,7 @@
 
 ### Swagger
 You can view endpoints with swagger
-![enter image description here](https://i.hizliresim.com/WouTie.png)
+![enter image description here](https://github.com/washingtonsantos/ecommerce-backend/blob/main/ecommerce.WebApi/Resources/Swagger.PNG)
 
 You can use these default credentials to generate valid JWTokens at the ../api/account/authenticate endpoint.
 

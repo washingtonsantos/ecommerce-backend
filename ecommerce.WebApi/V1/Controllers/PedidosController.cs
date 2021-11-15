@@ -1,5 +1,4 @@
 ﻿using ecommerce.Encomenda.Application.Interfaces;
-using ecommerce.Encomenda.Domain.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -12,7 +11,6 @@ namespace ecommerce.WebApi.V1.Controllers
     [Route("api/v{version:apiVersion}/[controller]")]
     public class PedidosController : ControllerBase
     {
-        private readonly IPedidoRepository _pedidoRepository;
         private readonly IPedidoApplicationService _pedidoApplicationService;
 
         public PedidosController(IPedidoApplicationService pedidoApplicationService)

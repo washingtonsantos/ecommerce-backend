@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace ecommerce.WebApi.V1.Controllers
+namespace ecommerce.WebApi.Controllers.V1.Controllers
 {
     [Authorize]
     [ApiController]
@@ -18,12 +18,14 @@ namespace ecommerce.WebApi.V1.Controllers
             _pedidoApplicationService = pedidoApplicationService;
         }
 
-        [HttpGet]        
-        public async Task<IActionResult> ObterPedidos()
+        [HttpGet]
+        public async Task<IActionResult> ObterPedidos([FromQuery] PaginationFilter paginationFilter)
         {
             try
             {
-                var pedidos = await _pedidoApplicationService.ObterPedidos();
+                var validFilter = new PaginationFilter(paginationFilter.PageNumber, paginationFilter.PageSize);
+
+                var pedidos = await _pedidoApplicationService.ObterPedidos(validFilter.PageNumber, validFilter.PageSize);
 
                 return Ok(pedidos);
             }

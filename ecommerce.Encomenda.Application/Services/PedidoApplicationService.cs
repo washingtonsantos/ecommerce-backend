@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ecommerce.Encomenda.Application.Interfaces;
 using ecommerce.Encomenda.Application.ViewModels;
+using ecommerce.Encomenda.Domain.Entities;
 using ecommerce.Encomenda.Domain.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -18,14 +19,17 @@ namespace ecommerce.Encomenda.Application.Services
             _pedidoRepository = pedidoRepository;
         }
 
-        public async Task<IEnumerable<PedidoViewModel>> ObterPedidos()
+        public async Task<PagedResults<PedidoViewModel>> ObterPedidos(int numeroPagina, int linhasPorPagina)
         {
+           var itensPaginados =  await _pedidoRepository.GetPedidos(numeroPagina, linhasPorPagina);
 
-           var pedidosDomain =  await _pedidoRepository.GetPedidos();
+           var pedidosViewModel = _mapper.Map<IEnumerable<Domain.Entities.Pedido>, IEnumerable<PedidoViewModel>>(itensPaginados.Items);
 
-           var pedidosViewModel = _mapper.Map<IEnumerable<Domain.Entities.Pedido>, IEnumerable<PedidoViewModel>>(pedidosDomain);
+            var itensPaginadosViewModel = new PagedResults<PedidoViewModel>();
+            itensPaginadosViewModel.Items = pedidosViewModel;
+            itensPaginadosViewModel.TotalCount = itensPaginados.TotalCount;
 
-           return pedidosViewModel;
+           return itensPaginadosViewModel;
         }
 
     }

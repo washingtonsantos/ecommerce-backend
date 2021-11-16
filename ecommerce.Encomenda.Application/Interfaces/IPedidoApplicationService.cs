@@ -1,11 +1,11 @@
 ﻿using ecommerce.Encomenda.Application.ViewModels;
-using System.Collections.Generic;
+using ecommerce.Encomenda.Domain.Entities;
 using System.Threading.Tasks;
 
 namespace ecommerce.Encomenda.Application.Interfaces
 {
     public interface IPedidoApplicationService
     {
-        Task<IEnumerable<PedidoViewModel>> ObterPedidos();
+        Task<PagedResults<PedidoViewModel>> ObterPedidos(int numeroPagina, int linhasPorPagina);
     }
 }

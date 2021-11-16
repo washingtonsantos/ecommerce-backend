@@ -6,6 +6,6 @@ namespace ecommerce.Encomenda.Domain.Interfaces
 {
     public interface IPedidoRepository
     {
-        Task<IEnumerable<Pedido>> GetPedidos();
+        Task<PagedResults<Pedido>> GetPedidos(int numeroPagina, int linhasPorPagina);
     }
 }

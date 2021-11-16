@@ -26,7 +26,7 @@ You can use these default credentials to generate valid JWTokens at the ../api/a
 - [x] Repository Pattern - Generic
 - [x] Automapper
 - [x] Swagger UI
-- [ ] Pagination
+- [x] Pagination
 
 ## Prerequisites
 - Visual Studio 2019 Community and above

@@ -23,4 +23,10 @@
     <ProjectReference Include="..\ecommerce.Encomenda.Domain\ecommerce.Encomenda.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Resources\Swagger.PNG">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

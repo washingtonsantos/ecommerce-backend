@@ -20,7 +20,7 @@ namespace ecommerce.Encomenda.Data.Repository
             var query = @"select 
                             pedido.Id,
                             pedido.DataCriacao,
-                            pedido.DataEntregaRealizada,
+                            pedido.DataEntrega,
                             pedido.Endereco,
                             prod.Id,
                             prod.Nome,

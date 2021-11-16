@@ -7,9 +7,9 @@ namespace ecommerce.Encomenda.Application.ViewModels
     {
         public int Id { get; set; }
         public DateTime DataCriacao { get; set; }
-        public DateTime DataEntregaRealizada { get; set; }
+        public DateTime DataEntrega { get; set; }
         public string Endereco { get; set; }
-        public List<ProdutoViewModel> ProdutosViewModel { get; set; }
-        public EquipeViewModel EquipeViewModel { get; set; }
+        public List<ProdutoViewModel> Itens { get; set; }
+        public EquipeViewModel Equipe { get; set; }
     }
 }

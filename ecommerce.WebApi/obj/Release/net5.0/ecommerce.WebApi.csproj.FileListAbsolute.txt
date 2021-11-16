@@ -45,3 +45,14 @@ C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\obj\Release\net5.0\ecommer
 C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\obj\Release\net5.0\ref\ecommerce.WebApi.dll
 C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\obj\Release\net5.0\ecommerce.WebApi.pdb
 C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\obj\Release\net5.0\ecommerce.WebApi.genruntimeconfig.cache
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\AutoMapper.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\ecommerce.Encomenda.Application.dll
+C:\DEV_BACKEND\ecommerce-backend\src\ecommerce.WebApi\bin\Release\net5.0\ecommerce.Encomenda.Application.pdb

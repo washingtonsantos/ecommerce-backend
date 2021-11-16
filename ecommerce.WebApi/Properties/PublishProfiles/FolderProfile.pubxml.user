@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\inetpub\Services\api-pedidos</_PublishTargetUrl>
-    <History>True|2021-11-09T23:50:02.9325589Z;False|2021-11-09T20:48:39.5426041-03:00;False|2021-11-09T20:48:24.6054929-03:00;False|2021-11-09T20:47:37.0095011-03:00;</History>
+    <History>True|2021-11-16T00:51:31.3211032Z;False|2021-11-15T21:51:01.6031397-03:00;False|2021-11-15T21:50:51.2850189-03:00;False|2021-11-15T21:18:48.1673330-03:00;True|2021-11-15T20:51:40.3119721-03:00;True|2021-11-15T17:14:49.5264642-03:00;True|2021-11-15T17:11:35.6474860-03:00;False|2021-11-15T17:10:14.2660913-03:00;False|2021-11-15T17:10:07.0697655-03:00;True|2021-11-09T20:50:02.9325589-03:00;False|2021-11-09T20:48:39.5426041-03:00;False|2021-11-09T20:48:24.6054929-03:00;False|2021-11-09T20:47:37.0095011-03:00;</History>
   </PropertyGroup>
 </Project>

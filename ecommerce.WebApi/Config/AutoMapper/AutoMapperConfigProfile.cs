@@ -10,8 +10,8 @@ namespace ecommerce.WebApi.Config.AutoMapper
             CreateMap<Encomenda.Domain.Entities.Produto, ProdutoViewModel>();
             CreateMap<Encomenda.Domain.Entities.Equipe, EquipeViewModel>();
             CreateMap<Encomenda.Domain.Entities.Pedido, PedidoViewModel>().
-               ForMember(destino => destino.ProdutosViewModel, origem => origem.MapFrom(x => x.Produtos)).
-               ForMember(destino => destino.EquipeViewModel, origem => origem.MapFrom(x => x.Equipe));
+               ForMember(destino => destino.Itens, origem => origem.MapFrom(x => x.Produtos)).
+               ForMember(destino => destino.Equipe, origem => origem.MapFrom(x => x.Equipe));
         }
     }
 }

@@ -11,7 +11,7 @@ namespace ecommerce.Encomenda.Domain.Entities
         }
 
         public DateTime DataCriacao { get; private set; }
-        public DateTime DataEntregaRealizada { get; private set; }
+        public DateTime? DataEntrega { get; private set; }
         public string Endereco { get; private set; }
 
         private readonly List<Produto> produtos;

@@ -83,10 +83,10 @@ namespace ecommerce.WebApi.Config.Swagger
         {
             var info = new OpenApiInfo()
             {
-                Title = "API - desenvolvedor.io",
+                Title = "Ecommerce API",
                 Version = description.ApiVersion.ToString(),
-                Description = "Esta API faz parte do curso REST com ASP.NET Core WebAPI.",
-                Contact = new OpenApiContact() { Name = "Eduardo Pires", Email = "contato@desenvolvedor.io" },
+                Description = "API para consumir informações de pedidos",
+                Contact = new OpenApiContact() { Name = "Washington Silva", Email = "contato@desenvolvedor.io" },
                 License = new OpenApiLicense() { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
             };
 
